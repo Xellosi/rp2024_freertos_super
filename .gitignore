@@ -1,0 +1,27 @@
+# IDE
+.vscode/
+
+# Build artifacts
+build/
+**/build/
+**/build.*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
+
+# Firmware outputs
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+
+# OS
+.DS_Store
+
+# Project workspaces (each project keeps its own Git history)
+workplace/*
+AGENTS.md

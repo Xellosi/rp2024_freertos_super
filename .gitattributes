@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Keep shell scripts executable and with LF endings
+*.sh text eol=lf
