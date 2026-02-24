@@ -22,6 +22,8 @@ build/
 # OS
 .DS_Store
 
-# Project workspaces (each project keeps its own Git history)
+# Project workspaces (default ignored; selectively tracked demos are unignored below)
 workplace/*
+!workplace/blink/
+!workplace/blink/Makefile
 AGENTS.md
